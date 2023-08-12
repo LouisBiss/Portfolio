@@ -5,29 +5,29 @@ import { ImageContainer,
         TextContainer
           } from "../../styles/blocks/Block_type1.style";
 import "../../styles/blocks/Block_type1.style.css";
-function Block_type1({
+function Block_type2({
                       Header,
                       Title,
-                      Description,
+                      DescriptionType2,
                       Footer,
                       Link
                     }) {
     return (
-        <div b>
+        <div>
             <Wrapper>
-                <TextContainer>
-                    <div>{Header}</div>
-                    <h1>{Title}</h1>
-                    <div className="Description" >{Description}</div> 
-                    <div>{Footer}</div>
-                    <div>{Link}</div>
-                </TextContainer>
                 <ImageContainer>
                     <img src={LogoImage} alt="logo"  height="100vh" />
                 </ImageContainer>
+                <TextContainer>
+                    <div>{Header}</div>
+                    <h1>{Title}</h1>
+                    <div className="DescriptionType2" >{DescriptionType2}</div> 
+                    <div>{Footer}</div>
+                    <div>{Link}</div>
+                </TextContainer>
             </Wrapper>
         </div>
     
     );
 }
-export default Block_type1;
+export default Block_type2;

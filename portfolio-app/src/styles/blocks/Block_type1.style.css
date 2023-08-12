@@ -1,0 +1,12 @@
+.Description{
+    background-color: aqua;    
+    width: 110%;
+    border-radius: 4px;
+}
+
+.DescriptionType2{
+    background-color: rgb(242, 0, 255);    
+    width: 110%;
+    border-radius: 4px;
+    margin-left: -10%;
+}

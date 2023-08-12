@@ -11,37 +11,37 @@ export const HomeContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
-
-
 `;
 
 export const HeaderContainer = styled.div`
     width: 100%;
-    margin-left: 10ch;
     font-family: Courier New;
     font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 5ch;
 
 
 `;
 
 export const TitleContainer = styled.div`
     width: 100%;
-    margin-left: 10ch;
+    box-sizing: border-box;
+    padding-left: 5ch;
 
 `;
 
 export const FooterContainer = styled.div`
     width: 100%;
-    margin-left: 10ch;
+    box-sizing: border-box;
+    padding-left: 5ch;
 
 
 `;
 
 export const ButtonContainer = styled.div`
     width: 100%;
-    margin-left: 10ch;
+    box-sizing: border-box;
+    padding-left: 5ch;
 
 
 `;

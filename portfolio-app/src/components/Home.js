@@ -11,8 +11,7 @@ import { HomeContainer,
 function Acceuil() {
     return (
         <HomeContainer>
-
-            <HeaderContainer>
+             <HeaderContainer>
                 <div>Header</div>
             </HeaderContainer>
 
@@ -27,7 +26,6 @@ function Acceuil() {
             <ButtonContainer>
                 <button>Button</button   >
             </ButtonContainer>
-
         </HomeContainer>
     );
 }
