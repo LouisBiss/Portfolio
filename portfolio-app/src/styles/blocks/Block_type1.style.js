@@ -7,13 +7,22 @@ export const Wrapper = styled.div`
     display: flex;
     box-sizing: border-box;
     padding: 5ch;
+    font-family: Roboto;
+
 
 `;
 
 export const TextContainer = styled.div`
     width: 50%;
     background-color: green;
-    z-index: 10;
+`;
+
+export const DescriptionContainer = styled.div`
+    width: 110%;
+    border-radius: 4px;
+    //position: relative;
+    background-color: aqua;    
+    padding: 1.5ch;
 
 `;
 

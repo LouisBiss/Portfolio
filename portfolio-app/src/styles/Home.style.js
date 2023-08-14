@@ -2,7 +2,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HomeContainer = styled.div`
-    background-color: #e6f5ff;
+    background-color: #03001C;
+    color: white;
     font-family: Roboto;
     // occupe tout l'espace de l'écran
     height: 100vh; 

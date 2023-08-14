@@ -1,6 +1,6 @@
 .NavBarContact {
-    border: solid red 5px;
-    color: red;
+    border: solid #8c80ff 5px;
+    color: #8c80ff;
     border-radius: 20px;
     padding: 6px;
     padding-inline: 10px;
@@ -20,7 +20,8 @@
     };
   
     &:hover {
-        background-color: rgb(245, 126, 126);
+        background-color: #bab2fc;
+       
         padding-right: 25px;
         padding-left:10px;
     };

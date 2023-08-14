@@ -2,8 +2,11 @@ import React from "react";
 import LogoImage from "../../assets/logo.png";
 import { ImageContainer,
         Wrapper,
-        TextContainer
-          } from "../../styles/blocks/Block_type1.style";
+        TextContainer,
+        DescriptionContainer
+        } 
+        from "../../styles/blocks/Block_type1.style";
+
 import "../../styles/blocks/Block_type1.style.css";
 function Block_type1({
                       Header,
@@ -18,7 +21,7 @@ function Block_type1({
                 <TextContainer>
                     <div>{Header}</div>
                     <h1>{Title}</h1>
-                    <div className="Description" >{Description}</div> 
+                    <DescriptionContainer>{Description}</DescriptionContainer>
                     <div>{Footer}</div>
                     <div>{Link}</div>
                 </TextContainer>

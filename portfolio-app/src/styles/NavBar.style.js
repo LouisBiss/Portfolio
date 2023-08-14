@@ -5,7 +5,11 @@ export const NavBarContainer = styled.nav`
     width: 100%;
     /* Si le state de extendNavbar est true, l'afficher sur toute la longueur de l'écran, sinon affichage normal */
     height: ${props => props.extendNavbar ? "100vh" : "80px"};
-    background-color: black;
+    //Texte Style
+    background-color: #03001C;
+    font-weight: bold;
+    font-family: Roboto;
+
     display: flex;
     flex-direction: column;
     position: fixed; // la barre de navigation est fixe. 
@@ -54,7 +58,6 @@ export const NavBarLinkContainer = styled.div`
 export const NavBarLink = styled(Link)`
     color: white;
     font-size: x-large;
-    font-family: 'Arial','Helvetica', sans-serif;
     text-decoration: none;
     margin: 10px;
     /* Dès que la taille de l'écran est supérieur à 700px, les liens ne sont plus affichés  */
@@ -63,7 +66,7 @@ export const NavBarLink = styled(Link)`
     }
     //change color when hoover
     &:hover {
-        color: red;
+        color: #8c80ff;
     }
 `;
 
@@ -95,7 +98,6 @@ export const NavBarExtendedContainer = styled.div`
 export const NavBarLinkExtended = styled(Link)`
     color: white;
     font-size: x-large;
-    font-family: 'Arial','Helvetica', sans-serif;
     text-decoration: none;
     margin: 10px;
 `;	

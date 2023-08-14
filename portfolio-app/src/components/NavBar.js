@@ -29,8 +29,9 @@ function NavBar() {
                 <LeftContainer>
                     <NavBarLinkContainer>
                         <NavBarLink to="/">Acceuil</NavBarLink>
-                        <NavBarLink to="/Projets">Projets</NavBarLink>
                         <NavBarLink to="/Experience">Experience</NavBarLink> 
+                        <NavBarLink to="/Projets">Projets</NavBarLink>
+                        <NavBarLink to="/Compétences">Competénces</NavBarLink> 
                         <OpenLinksButton
                             onClick={() => {
                                 setExtendNavbar((curr)=> !curr);
@@ -43,7 +44,7 @@ function NavBar() {
                 </LeftContainer>
                 <RightContainer >
                     <NavBarLink className="NavBarContact" to="/Contact">
-                        <div style={{color: "red"}}>Contact</div>
+                        <div  style={{color: "#8c80ff"}} >Contact</div>
                      </NavBarLink>
                 </RightContainer>
             {/* Only if extend navbar is true, show NavBarExtendedContainer */}
@@ -51,8 +52,11 @@ function NavBar() {
             {extendNavbar && (
                  <NavBarExtendedContainer>
                         <NavBarLinkExtended to="/">Home</NavBarLinkExtended>
-                        <NavBarLinkExtended to="/Projets">Projets</NavBarLinkExtended>
                         <NavBarLinkExtended to="/Experience">Experience</NavBarLinkExtended> 
+                        <NavBarLinkExtended to="/Projets">Projets</NavBarLinkExtended>
+                        <NavBarLinkExtended to="/Compétences">Competénces</NavBarLinkExtended> 
+                        <NavBarLinkExtended to="/Contact">Contact</NavBarLinkExtended> 
+
                  </NavBarExtendedContainer>
             )}
            
