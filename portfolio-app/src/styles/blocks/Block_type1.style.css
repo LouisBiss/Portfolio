@@ -2,7 +2,7 @@
     background-color: aqua;    
     width: 110%;
     border-radius: 4px;
-    position: relative;  /* mets au premier plan */
+     position: relative;   /* mets au premier plan */
 }
 
 .DescriptionType2{

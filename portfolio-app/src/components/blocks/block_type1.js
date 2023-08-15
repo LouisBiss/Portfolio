@@ -16,7 +16,7 @@ function Block_type1({
                       Link
                     }) {
     return (
-        <div b>
+        <div>
             <Wrapper>
                 <TextContainer>
                     <div>{Header}</div>
@@ -26,7 +26,7 @@ function Block_type1({
                     <div>{Link}</div>
                 </TextContainer>
                 <ImageContainer>
-                    <img src={LogoImage} alt="logo"  height="100vh" />
+                    <img src={LogoImage} alt="logo"  height="100%" />
                 </ImageContainer>
             </Wrapper>
         </div>

@@ -1,11 +1,12 @@
 import React from "react";
+
 import Block_type1 from "./blocks/block_type1";
 import Block_type2 from "./blocks/block_type2";
 
 
 function MonExperience() {
     return (
-        <div style={{backgroundColor: "#e6f5ff"}}>
+        <div style={{backgroundColor: "#03001C", fontFamily: "Roboto", color: "white" }}>
             <h1>Mon Expérience</h1>
              <Block_type1 
                 Header="Header"

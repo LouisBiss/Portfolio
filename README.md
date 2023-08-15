@@ -11,5 +11,5 @@ Couleurs
 Règle du 60-30-10 
 
 60% : couleur de base (neutre de préférence) -> #03001C
-30% : couleur secondaire 
-10%: coleur d'action (call to action) -> invite l'utilisateur à intéragire
+30% : couleur secondaire -> white
+10%: coleur d'action (call to action) -> invite l'utilisateur à intéragire -> #8c80ff

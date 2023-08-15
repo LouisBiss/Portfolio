@@ -17,7 +17,7 @@ export const NavBarContainer = styled.nav`
 `;
 export const LogoContainer = styled.div`
     display: flex;
-    background-color: red;
+    //background-color: red;
 `;
 export const Logo = styled.img`
     margin: 10px;
